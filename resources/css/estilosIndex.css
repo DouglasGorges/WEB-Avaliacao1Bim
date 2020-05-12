@@ -1,0 +1,99 @@
+body {
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: RGB(176, 67, 67);
+    font-size: 35px;
+    color: cornsilk;
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+    vertical-align: top;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    font-weight: 300;
+    text-align: center;
+    border-top: RGB(176, 67, 67) solid;
+    border-width: 2px;
+    padding-top: 20px;
+}
+
+form {
+    margin: 0px 40px 20px 20px;
+}
+
+.entrar,
+.cadastrar {
+    background-color: rgb(211, 209, 209);
+    flex-grow: 5;
+}
+
+article>.titulo {
+    border-bottom: black solid;
+    border-width: 1px;
+    margin: 15px 50px 0px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.login {
+    margin-top: 1.6em;
+}
+
+.form-input {
+    margin-top: 1em;
+}
+
+.entrar input:focus {
+    border-color: RGB(176, 67, 67);
+    outline: 0;
+}
+
+.cadastrar input:focus {
+    border-color: cornflowerblue;
+    outline: 0;
+}
+
+input[type=text],
+input[type=password],
+input[type=button],
+input[type=email] {
+    margin-top: 5px;
+    height: 3em;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.form-entrar {
+    width: 100%;
+}
+
+.form-cadastrar {
+    width: 70%;
+    height: 34px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.float-left {
+    float: left;
+    width: 150px;
+}
+
+input[type=button] {
+    background-color: RGB(176, 67, 67);
+    color: cornsilk;
+    border-radius: 5px;
+    font-size: small;
+}
